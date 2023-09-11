@@ -1,0 +1,50 @@
+.wrap{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.formContent, .Column{
+    margin-top: 40px;
+}
+.form-reserva{
+    border: 2px solid black;
+    padding: 35px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabla-reserva{
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 25px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla-reserva td, .tabla-reserva th {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+
+.tabla-reserva tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.tabla-reserva tr:hover {
+    background-color: #ddd;
+}
+
+.tabla-reserva th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(8, 138, 237);
+  color: whitesmoke;
+}
