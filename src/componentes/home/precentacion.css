@@ -1,0 +1,189 @@
+.precentacion_contenedor{
+
+    background-color: black;
+
+    display: flex;
+
+    justify-content: center;
+
+    padding:  0 30px;
+
+    height: 700px;
+
+    position: relative;
+
+    z-index: 1;
+
+}
+
+ 
+
+.homeBg{
+
+    position: absolute;
+
+    top: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    overflow: hidden;
+
+}
+
+ 
+
+.imgBg{
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+ 
+
+.presentacion-link{
+
+    text-decoration: none;
+
+}
+
+ 
+
+.homeContenedor ::before{
+
+    content: "";
+
+        position: absolute;
+
+        top: 0;
+
+        left: 0;
+
+        right: 0;
+
+        bottom: 0;
+
+        z-index: 2;
+
+}
+
+ 
+
+ 
+
+.homeContent{
+
+    z-index: 2;
+
+    padding: 8px 24px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-end;
+
+}
+
+ 
+
+.home-h1{
+
+    color: rgb(255, 214, 214);
+
+    font-size: 75px;
+
+    text-align: left;
+
+    margin-top: 80px;
+
+    font-weight: 900;
+
+   font-family: Georgia, 'Times New Roman', Times, serif;;
+
+}
+
+ 
+
+.home-p1{
+
+    margin-top: 24px;
+
+    color: rgb(144, 188, 180);
+
+    font-size: 45px;
+
+    text-align: center;
+
+    max-width: 900px;
+
+    font-weight: 900;
+
+}
+
+ 
+
+.home-p{
+
+    margin-top: 24px;
+
+    color: rgb(144, 188, 180);
+
+    font-size: 60px;
+
+    text-align: center;
+
+    max-width: 900px;
+
+    font-weight: 900;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+ 
+
+.btnHome{
+
+    border-radius: 50px;
+
+    background: rgb(144, 188, 180);
+
+    padding: 14px 48px;
+
+    color:  white;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    border: 0;
+
+ 
+
+}
+
+ 
+
+.btnWrap{
+
+    margin-top: 32px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}

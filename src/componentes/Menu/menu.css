@@ -1,0 +1,13 @@
+.cards-wrap{
+    margin-top: 20px;
+}
+.cards-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.titulo-prod1{
+    align-items: center;
+}
